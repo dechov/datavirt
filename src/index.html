@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="viewport" content="user-scalable=no">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <meta name="description" content="">
+    <title>Data Virtualization</title>
+
+    <style>
+      body { touch-action: manipulation; }
+      html, body, #container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container"></div>
+    <!--<script src="//unpkg.com/aframe@0.3.1"></script>-->
+    <script src="vendor/aframe.js"></script>
+    <!--<script src="https://wzrd.in/standalone/loess"></script>-->
+    <script src="vendor/loess.js"></script>
+    <script>window.LOESS = window.loess.default;</script>
+    <script src="main.js"></script>
+  </body>
+  
+</html>
