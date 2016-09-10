@@ -110,6 +110,13 @@ class World extends React.Component {
             position={[0, 0, dateScale.range()[1] - 0.2]}
             rotation={[0, 90, 0]}
           />
+          <Entity
+            text={{ text: 'January', size: 0.25 }}
+            material={{ color: '#888888', shader: 'flat' }}
+            position={[0, 0, dateScale.range()[0] + 0.2]}
+            rotation={[0, -90, 0]}
+          />
+
         </Entity>
 
         {/* Surface */}
