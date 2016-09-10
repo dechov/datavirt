@@ -1,3 +1,8 @@
+/*
+ * Forked from look-controls, modified updatePosition
+ */
+
+
 // var registerComponent = require('../core/component').registerComponent;
 // var THREE = require('../lib/three');
 // var isMobile = require('../utils/').isMobile();

@@ -7,12 +7,12 @@ module.exports = {
     new require('copy-webpack-plugin')([
       { from: './src/index.html' },
       { from: './assets', to: './assets'},
-      { from: './data', to: './data'},
+      { from: './data/aggregates.json', to: './data'},
       { from: './src/vendor', to: './vendor'},
     ])
   ],
-  externals: {
-    aframe: 'AFRAME',
-    loess: 'LOESS'
-  }
+  // externals: {
+  //   aframe: 'AFRAME',
+  //   loess: 'LOESS'
+  // }
 }
