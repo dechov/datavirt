@@ -9,7 +9,7 @@
 // var bind = require('../utils/bind');
 // var bind = AFRAME.utils.bind
 var bind = (f, context) => f.bind(context)
-var isMobile = AFRAME.utils.isMobile()
+var isMobile = (AFRAME.utils.isMobile || AFRAME.utils.device.isMobile)()
 
 // To avoid recalculation at every mouse movement tick
 var PI_2 = Math.PI / 2;
