@@ -15,4 +15,7 @@ module.exports = {
   //   aframe: 'AFRAME',
   //   loess: 'LOESS'
   // }
+  externals:[{
+    xmlhttprequest: '{XMLHttpRequest:XMLHttpRequest}'
+  }],
 }

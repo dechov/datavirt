@@ -1,4 +1,4 @@
-import 'whatwg-fetch'
+// import 'whatwg-fetch'
 
 // Shake to reload
 import Shake from 'shake.js'

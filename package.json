@@ -6,6 +6,7 @@
     "serve": "http-server ./dist"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-loader": "^6.2.5",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
@@ -22,6 +23,7 @@
     "aframe-text-component": "^0.3.0",
     "d3": "^4.2.2",
     "horizon": "^2.0.0",
+    "http-server": "^0.11.1",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "reselect": "^2.5.3",

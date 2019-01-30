@@ -12,6 +12,6 @@ npm install
 ## Development
 
 ```bash
-npm start
 npm run dev
+npm run serve
 ```
